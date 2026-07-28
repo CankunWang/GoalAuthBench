@@ -2,6 +2,9 @@
 name = "goalauthbench"
 version = "0.0.0"
 description = "Controlled authorization and shortcut auditing for LLM agents."
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
 requires-python = ">=3.11,<3.12"
 dependencies = []
 

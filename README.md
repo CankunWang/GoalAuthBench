@@ -27,9 +27,12 @@ uv run python -c "import goalauthbench"
 uv build
 ```
 
+## License
+
+Licensed under the [Apache License 2.0](./LICENSE).
+
 ## Current phase
 
 The project is establishing its package, research protocol, threat model, label guide, tests, and continuous-integration checks. Planned work must not be interpreted as completed functionality.
 
 The current execution baseline is [`GoalAuthBench_v0.2_重审执行版_2026-07-27.md`](./GoalAuthBench_v0.2_重审执行版_2026-07-27.md).
-
