@@ -1,0 +1,11 @@
+[project]
+name = "goalauthbench"
+version = "0.0.0"
+description = "Controlled authorization and shortcut auditing for LLM agents."
+requires-python = ">=3.11,<3.12"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.11.15,<0.12"]
+build-backend = "uv_build"
+
