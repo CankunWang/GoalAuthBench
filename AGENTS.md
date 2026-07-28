@@ -33,6 +33,17 @@
 
 ## 5. Verification
 
+Use these commands:
+
+```text
+uv sync --frozen
+uv run ruff format --check .
+uv run ruff check .
+uv run pyright
+uv run pytest
+uv build
+```
+
 - Every implementation change must satisfy the task's acceptance criteria with tests or reproducible verification evidence.
 - Report commands actually run and their real results.
 - Do not silently skip failing checks.

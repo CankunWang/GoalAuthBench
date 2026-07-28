@@ -5,7 +5,51 @@ description = "Controlled authorization and shortcut auditing for LLM agents."
 requires-python = ">=3.11,<3.12"
 dependencies = []
 
+[dependency-groups]
+dev = [
+    "hypothesis",
+    "pyright",
+    "pytest",
+    "pytest-cov",
+    "ruff",
+]
+
 [build-system]
 requires = ["uv_build>=0.11.15,<0.12"]
 build-backend = "uv_build"
 
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B", "S"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101"]
+
+[tool.pyright]
+pythonVersion = "3.11"
+typeCheckingMode = "strict"
+include = ["src", "tests"]
+venvPath = "."
+venv = ".venv"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = [
+    "-ra",
+    "--strict-config",
+    "--strict-markers",
+    "--cov=goalauthbench",
+    "--cov-report=term-missing",
+]
+testpaths = ["tests"]
+
+[tool.coverage.run]
+branch = true
+source = ["goalauthbench"]
+
+[tool.coverage.report]
+show_missing = true
