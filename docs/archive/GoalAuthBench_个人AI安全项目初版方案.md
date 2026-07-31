@@ -1,7 +1,7 @@
 # GoalAuthBench：个人 AI Agent 安全研究工程项目初版方案
 
 > **状态说明（2026-07-27）：本文件保留为 v0.1 历史草案，已不建议直接执行。**  
-> 2026 年 5–7 月新增的 contextual security、source-authorization audit、action-level causal attribution、exact-effect gate 与 latent monitor 工作，显著压缩了原方案的创新空间。请以 [v0.2 重审执行版](./GoalAuthBench_v0.2_重审执行版_2026-07-27.md) 为当前计划，并先阅读 [整体方案重审报告](./GoalAuthBench_整体方案重审报告_2026-07-27.md)。
+> 2026 年 5–7 月新增的 contextual security、source-authorization audit、action-level causal attribution、exact-effect gate 与 latent monitor 工作，显著压缩了原方案的创新空间。请以 [v0.2 重审执行版](../../GoalAuthBench_v0.2_重审执行版_2026-07-27.md) 为当前计划，并先阅读 [整体方案重审报告](./GoalAuthBench_整体方案重审报告_2026-07-27.md)。
 
 > 版本：v0.1 Draft  
 > 日期：2026-07-21  

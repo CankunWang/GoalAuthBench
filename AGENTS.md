@@ -6,8 +6,10 @@
 
 ## Authority
 
-- `GoalAuthBench_v0.2_重审执行版_2026-07-27.md` governs research scope and semantics.
-- `GoalAuthBench_工程级项目标准与参考建议_v0.1.md` governs implementation quality; `GoalAuthBench_整体方案重审报告_2026-07-27.md` provides rationale only.
+- Accepted files in `docs/adr/` govern recorded architecture decisions.
+- `docs/research/threat-model.md` governs security boundaries; `docs/research/label-guide.md` governs labels and decision semantics.
+- `GoalAuthBench_v0.2_重审执行版_2026-07-27.md` governs remaining research scope where it is not superseded by an accepted ADR or research baseline.
+- `docs/planning/GoalAuthBench_工程级项目标准与参考建议_v0.1.md` governs implementation quality; `docs/archive/GoalAuthBench_整体方案重审报告_2026-07-27.md` provides rationale only.
 - Historical plans and past conversations are context only; persist approved decisions in repository files.
 
 ## Iron Rules
